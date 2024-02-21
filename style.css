@@ -1,0 +1,133 @@
+/* mobile view */
+body{
+    background-color: white;
+}
+nav{
+    padding: 16px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: none;
+}
+nav button{
+    display: none;
+}
+nav h3{
+    font-size: 30px;
+}
+.logo img{
+    width: 200px;
+    height: 40px;
+}
+.icon img{
+    width: 20px;
+    margin-left: 200px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 100%;
+    padding: 40px;
+}
+.writeup {
+    width: 50%;
+    padding: 30px;
+}
+.dashboard{
+    width: 50%;
+    padding: 20px;
+}
+section h1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    ;
+}
+section p{
+    font-size: 20px;
+    width: 70%;
+    margin-top: 35px;
+    color: rgb(113, 113, 113);
+}
+.creat{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(67, 67, 243);
+    margin-top: 20px;
+}
+.dashboard{
+    width: 100%;
+}
+.dashboard img{
+    width: 60%;
+}
+
+/* laptop */
+@media screen and (min-width:800px) {
+    body{
+        background-color: white;
+    }
+    nav h3{
+        display: none;
+    }
+    nav{
+        padding: 16px 100px;
+    }
+    nav ul{
+        display: flex;
+        text-decoration: none;
+        gap: 50px;
+    }
+    nav button{
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+       
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .icon img{
+        display: none;
+    }
+    nav ul li{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    .logo img{
+        width: 250px;
+        height: 50px;
+    }
+    .log{
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        text-align: center;
+        border: none;
+        display: block;
+        color: white;
+        background-color: rgb(67, 67, 243);
+    }
+    .log:hover{
+        background-color: black;
+    }
+    .dashboard{
+        width: 100%;
+    }
+    .dashboard img{
+        width: 70%;
+    }
+    section h1{
+        font-size: 50px;
+    }
+
+    
+}
